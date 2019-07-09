@@ -33,7 +33,7 @@
     "fguillot/json-rpc": "v0.0.1",
     "rych/hash_pbkdf2-compat": "v1.0.0",
     "lastguest/murmurhash": "v1.0",
-    "rgooding/protobuf-php": "v0.0.1",
+    "DrSlump/Protobuf-PHP": "dev-master",
     "react/react": "v0.4.0",
     "react/socket-client": "^0.4.0",
     "bitwasp/buffertools": "v0.1.5",
@@ -43,5 +43,11 @@
     "phpunit/phpunit": "4.0",
     "bitwasp/testing-php": "~0.0",
     "symfony/yaml": "~2.6"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/drslump/Protobuf-PHP"
+    }
+  ]
 }
